@@ -2,14 +2,14 @@ import { Metadata } from "next";
 export default function Page() {
   return (
     <section className="w-full">
-      <h2 className="p-6 border-b border-[#E1E1E1]">Home</h2>
+      <h2 className="p-6 border-b border-[#E1E1E1]">Data rooms</h2>
     </section>
   );
 }
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "Visitors",
-    description: "Visitors",
+    title: "Data Rooms",
+    description: "Data Rooms",
   };
 }
