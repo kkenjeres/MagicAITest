@@ -1,8 +1,8 @@
-import mp4 from "@icons/mp4.svg";
-import threeD from "@icons/3d.svg";
-import png from "@icons/png.svg";
-import folder from "@icons/folder.png";
-import avatar from "@icons/avatar.svg";
+import mp4 from "../../../public/assets/icons/mp4.svg";
+import threeD from "../../../public/assets/icons/3d.svg";
+import png from "../../../public/assets/icons/png.svg";
+import folder from "../../../public/assets/icons/folder.png";
+import avatar from "../../../public/assets/icons/avatar.svg";
 
 export const libraryData = [
   {
