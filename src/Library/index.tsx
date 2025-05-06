@@ -2,7 +2,7 @@ import { SearchBar } from "common/ui-kit/searchBar";
 import { libraryData } from "data/library/library";
 import { recentlyAddedData } from "data/library/recentlyAdded";
 import { LibraryListItem } from "../Library/LibraryItem/LibraryItem";
-import folder from "../../public/assets/icons/gray_folder.svg";
+import folder from "@";
 import search from "../../public/assets/icons/gray_search.svg";
 import { UploadBtn } from "common/ui-kit/UploadBtn";
 import { Icon } from "common/ui-kit/Icon/Icon";
