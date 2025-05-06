@@ -4,6 +4,6 @@ export type LibraryItem = {
   id: string;
   name: string;
   image: StaticImageData | string;
-  publisher: StaticImageData;
+  publisher: StaticImageData | string;
   date: string;
 };
