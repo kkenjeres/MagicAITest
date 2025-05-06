@@ -10,7 +10,7 @@ export const UploadBtn = ({ className }: Props) => {
   return (
     <button
       className={cn(
-        "bg-[#1C1C1C] text-white rounded-xl flex items-center gap-x-1 cursor-pointer",
+        "bg-btn text-white rounded-xl flex items-center gap-x-1 cursor-pointer",
         className
       )}
     >

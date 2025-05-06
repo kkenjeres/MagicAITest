@@ -1,5 +1,3 @@
-import React from "react";
-import search from "../../../../public/assets/icons/search.svg";
 import { Icon } from "../Icon";
 import cn from "classnames";
 
@@ -15,7 +13,7 @@ export const SearchBar = ({ className }: SearchBarProps) => {
         className
       )}
     >
-      <Icon src={search} className="mr-2 w-5 h-5" />
+      <Icon src="/assets/icons/search.svg" className="mr-2 w-5 h-5" />
       <input
         type="text"
         placeholder="Search in Reshare..."

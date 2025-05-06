@@ -1,5 +1,4 @@
 import { Icon } from "common/ui-kit/Icon";
-import chevronRight from "../../../public/assets/icons/chevronDown.svg";
 import { LibraryItem } from "../../types/libraryTypes";
 
 type Props = {
@@ -8,7 +7,7 @@ type Props = {
 
 export const LibraryListItem = ({ item }: Props) => {
   return (
-    <li className="flex border-b border-[#E1E1E1] last:border-none items-center justify-between p-3 group hover:bg-[#F1F1F1] cursor-pointer">
+    <li className="flex border-b border-border last:border-none items-center justify-between p-3 group hover:bg-[#F1F1F1] cursor-pointer">
       <div className="flex items-center space-x-3">
         <input
           type="checkbox"
@@ -23,8 +22,8 @@ export const LibraryListItem = ({ item }: Props) => {
       <div className="text-xs text-[#777777] flex items-center gap-x-3">
         {item.date}
         <Icon src={item.publisher} />
-        <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-150">
-          <Icon src={chevronRight} className="w-5 h-5" />
+        <span className="md:opacity-0 group-hover:opacity-100 transition-opacity duration-150">
+          <Icon src="/assets/icons/chevronDown.svg" className="w-5 h-5" />
         </span>
       </div>
     </li>

@@ -3,8 +3,17 @@
 
 body {
   font-family: "Inter", sans-serif;
+  color: #333333;
 }
 
 .layout-px {
   @apply lg:px-10 px-4;
+}
+
+@theme {
+  --color-primary: #0070f3;
+  --color-hover: #e1e1e1;
+  --color-active: #e1e1e1;
+  --color-border: #e1e1e1;
+  --color-btn: #1C1C1C;
 }

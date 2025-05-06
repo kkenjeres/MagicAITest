@@ -2,7 +2,7 @@ import { Metadata } from "next";
 export default function Page() {
   return (
     <section className="w-full">
-      <h2 className="lex justify-between items-center border-b border-[#E1E1E1] p-3">
+      <h2 className="lex justify-between items-center border-b border-border p-3">
         Visitors
       </h2>
     </section>
