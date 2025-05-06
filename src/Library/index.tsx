@@ -5,11 +5,13 @@ import folder from "../../public/assets/icons/gray_folder.svg";
 import search from "../../public/assets/icons/gray_search.svg";
 import { UploadBtn } from "common/ui-kit/UploadBtn";
 import { Icon } from "common/ui-kit/Icon";
+import { SearchBar } from "common/ui-kit/SearchBar";
 export const Library = function Library() {
   return (
     <section className="w-full">
       <div className="flex justify-between items-center border-b border-[#E1E1E1] p-3">
         <h2 className="">Library</h2>
+        <SearchBar />
       </div>
       <div className="layout-px pt-5">
         <div>
