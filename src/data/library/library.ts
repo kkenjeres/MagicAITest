@@ -1,51 +1,57 @@
+import folder from "../../../public/assets/icons/folder.png";
+import avatar from "../../../public/assets/icons/avatar.svg";
+import png from "../../../public/assets/icons/png.svg";
+import threeD from "../../../public/assets/icons/3d.svg";
+import mp4 from "../../../public/assets/icons/mp4.svg";
+
 export const libraryData = [
   {
     id: "media-kit",
     name: "Media Kit",
-    image: "/assets/icons/folder.png",
-    publisher: "/assets/icons/avatar.svg",
+    image: folder,
+    publisher: avatar,
     date: "May 30, 2025",
   },
   {
     id: "sales",
     name: "Sales",
-    image: "/assets/icons/folder.png",
-    publisher: "/assets/icons/avatar.svg",
+    image: folder,
+    publisher: avatar,
     date: "May 29, 2025",
   },
   {
     id: "investors",
     name: "Investors",
-    image: "/assets/icons/folder.png",
-    publisher: "/assets/icons/avatar.svg",
+    image: folder,
+    publisher: avatar,
     date: "May 28, 2025",
   },
   {
     id: "sales-playbook",
     name: "Sales Playbook v3.1",
-    image: "/assets/icons/png.svg",
-    publisher: "/assets/icons/avatar.svg",
+    image: png,
+    publisher: avatar,
     date: "May 25, 2025",
   },
   {
     id: "ai",
     name: "AI",
-    image: "/assets/icons/folder.png",
-    publisher: "/assets/icons/avatar.svg",
+    image: folder,
+    publisher: avatar,
     date: "May 27, 2025",
   },
   {
     id: "key-account",
     name: "Key Account Plans",
-    image: "/assets/icons/3d.svg",
-    publisher: "/assets/icons/avatar.svg",
+    image: threeD,
+    publisher: avatar,
     date: "May 26, 2025",
   },
   {
     id: "series-b",
     name: "Series B",
-    image: "/assets/icons/mp4.svg",
-    publisher: "/assets/icons/avatar.svg",
+    image: mp4,
+    publisher: avatar,
     date: "May 24, 2025",
   },
 ];
