@@ -2,7 +2,7 @@ export const recentlyAddedData = [
   {
     id: "ai",
     name: "AI",
-    image: "/assets/icons/folder.png",
+    image: "/assets/icons/folderImg.png",
     publisher: "/assets/icons/avatar.svg",
     date: "May 27, 2025",
   },

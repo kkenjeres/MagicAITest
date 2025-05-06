@@ -2,21 +2,21 @@ export const libraryData = [
   {
     id: "media-kit",
     name: "Media Kit",
-    image: "/assets/icons/folder.png",
+    image: "/assets/icons/folderImg.png",
     publisher: "/assets/icons/avatar.svg",
     date: "May 30, 2025",
   },
   {
     id: "sales",
     name: "Sales",
-    image: "/assets/icons/folder.png",
+    image: "/assets/icons/folderImg.png",
     publisher: "/assets/icons/avatar.svg",
     date: "May 29, 2025",
   },
   {
     id: "investors",
     name: "Investors",
-    image: "/assets/icons/folder.png",
+    image: "/assets/icons/folderImg.png",
     publisher: "/assets/icons/avatar.svg",
     date: "May 28, 2025",
   },
@@ -30,7 +30,7 @@ export const libraryData = [
   {
     id: "ai",
     name: "AI",
-    image: "/assets/icons/folder.png",
+    image: "/assets/icons/folderImg.png",
     publisher: "/assets/icons/avatar.svg",
     date: "May 27, 2025",
   },
