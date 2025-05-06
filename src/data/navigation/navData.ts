@@ -1,4 +1,4 @@
-import folder from "../../../public/assets/icons/folder.svg";
+import folder from "../../../public/assets/icons/folder.png";
 import person from "../../../public/assets/icons/person.svg";
 import shield from "../../../public/assets/icons/shield.svg";
 export const navData = [

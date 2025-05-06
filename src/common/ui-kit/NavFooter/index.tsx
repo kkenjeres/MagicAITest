@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Icon } from "common/ui-kit/Icon/Icon";
+import { Icon } from "common/ui-kit/Icon";
 import { FooterNavData } from "data/navigation/footerNavData";
 import avatar from "../../../../public/assets/icons/avatar.svg";
 
@@ -12,7 +12,7 @@ export const SidebarFooter = () => {
           <Link
             key={item.id}
             href={""}
-            className="flex items-center gap-x-2 p-2 hover:bg-[#E1E1E1] rounded-lg"
+            className="flex items-center gap-x-2 p-2 hover:bg-[#E1E1E1] rounded-xl"
           >
             <Icon src={item.icon} alt={item.text} className="w-5 h-5" />
             {item.text}

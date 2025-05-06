@@ -13,7 +13,7 @@ export const Header = memo(function Header({ className }: HeaderProps) {
   return (
     <header
       className={cn(
-        "w-full bg-[#F5F5F5] h-full flex flex-col p-3 text-[#333333]",
+        "hidden md:flex w-[260px] bg-[#F5F5F5] h-screen flex-col p-3 text-[#333333] fixed top-0 left-0 z-40",
         className
       )}
     >
@@ -24,7 +24,7 @@ export const Header = memo(function Header({ className }: HeaderProps) {
         alt="Reshare logo"
         className="mb-6"
       />
-      <UploadBtn className="self-start px-2 py-2 mb-3" />
+      <UploadBtn className="self-start pl-1 pr-2 py-2 mb-3" />
       <Nav />
       <SidebarFooter />
     </header>
