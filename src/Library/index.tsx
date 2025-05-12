@@ -16,7 +16,7 @@ export const Library = function Library() {
           <div className="flex justify-between items-center ">
             <h3 className="mb-3 mt-3">Recently Viewed</h3>
             <div className="flex gap-x-2">
-              <Icon src="assets/icons/gray_folder.svg" />
+              <Icon src="assets/icons/gray_search.svg" />
               <Icon src="assets/icons/gray_folder.svg" />
               <UploadBtn className="pr-2 pl-1" />
             </div>
